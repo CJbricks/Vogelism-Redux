@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import './slides.js';
+import Slides from './Slides.js';
 
 function App() {
   return (
     <div className="App">
-      
+      <Slides />
     </div>
   );
 }
