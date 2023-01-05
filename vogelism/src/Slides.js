@@ -7,7 +7,7 @@ export default class Slides extends Component {
 
         this.state = {
             index: 0,
-            quoteList: [],
+            quoteList: ["More stage dives in the monitors!"],
             imgList: []
         }
 
@@ -32,14 +32,14 @@ export default class Slides extends Component {
     render() {
         return (
             <div>
-                <img src={this.state.imgList[index]}
+                <img src={this.state.imgList[this.state.index]}
                 alt="vogel-images"
                 className="image-box"
                 height={500}
                 width={750}
                 />
-                
-                <h1 onClick={this.quoteChange}>{this.state.quoteList[index]}</h1>
+
+                <h1 onClick={this.quoteChange}>{this.state.quoteList[this.state.index]}</h1>
             </div>
         )
     }
