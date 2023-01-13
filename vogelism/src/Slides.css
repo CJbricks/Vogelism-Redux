@@ -1,0 +1,12 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Sofia+Sans&display=swap");
+
+.quote-box {
+      border: 2px solid blue;
+      font-size: 6.5em;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Sofia Sans', sans-serif;
+
+  }
+
+
