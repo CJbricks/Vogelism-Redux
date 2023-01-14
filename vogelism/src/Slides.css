@@ -2,11 +2,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Sofia+Sans&display=swap");
 
 .quote-box {
-      border: 2px solid blue;
+    /*  border: 2px solid blue; */
+      color: white;
       font-size: 6.5em;
       font-family: 'Noto Sans JP', sans-serif;
       font-family: 'Sofia Sans', sans-serif;
 
   }
+
+  .text-area {
+    padding-top: 20%;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
+
+  .signature {
+      color: white;
+      font-size: 6.5em;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Sofia Sans', sans-serif;
+      text-align: right;
+      margin-right: 2%;
+  }
+
+
 
 
