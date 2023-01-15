@@ -10,8 +10,12 @@
 
   }
 
+  .quote-box:hover{
+    cursor: pointer;
+  }
+
   .text-area {
-    padding-top: 20%;
+    padding-top: 10%;
     background-color: black;
     height: 100%;
     width: 100%;
@@ -19,7 +23,7 @@
 
   .signature {
       color: white;
-      font-size: 6.5em;
+      font-size: 5.5em;
       font-family: 'Noto Sans JP', sans-serif;
       font-family: 'Sofia Sans', sans-serif;
       text-align: right;

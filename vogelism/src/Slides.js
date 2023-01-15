@@ -10,7 +10,7 @@ export default function Slides() {
 
     return (
         <div className="text-area">
-            <h1 className="quote-box" onClick={() => index === quoteArray.length ? setIndex(0) : setIndex(index + 1)} >{quoteArray[index]}</h1>
+            <h1 className="quote-box" onClick={() => index === quoteArray.length - 1 ? setIndex(0) : setIndex(index + 1)} >{quoteArray[index]}</h1>
                 <p className="signature" >-Scott Vogel</p>
         </div>
     )
