@@ -19,6 +19,7 @@ export default function Splash() {
                     alt="media-front-page-logo"
                     className="media-meme"
                     />
+                <p className="enter-text" >ENTER</p>
             </div>
         </>
     )

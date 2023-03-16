@@ -1,4 +1,6 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Sofia+Sans&display=swap");
+
 .meme {
     width: 68%;
     height: 82%;
@@ -9,6 +11,10 @@
 }
 
 .media-meme {
+    display: none;
+}
+
+.enter-text {
     display: none;
 }
 
@@ -24,4 +30,13 @@
         margin-top: 25% ;
         margin-bottom: 50%;
     }
+
+    .enter-text {
+        display: block;
+        color: orangered;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Sofia Sans', sans-serif;
+        
+    }
+
 }

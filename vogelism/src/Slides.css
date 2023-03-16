@@ -35,5 +35,31 @@
   }
 
 
+@media only screen and (max-width: 600px){
+  .text-area {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
 
+  .quote-box {
+    /*  border: 2px solid blue; */
+      color: white;
+      font-size: 4em;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Sofia Sans', sans-serif;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 20%;
+  }
+  .signature {
+    color: white;
+      font-size: 3rem;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Sofia Sans', sans-serif;
+      text-align: right;
+      margin-right: 8%;
+      cursor: default;
+  }
+}
 
