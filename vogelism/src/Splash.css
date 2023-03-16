@@ -7,3 +7,21 @@
     cursor: pointer;
     background-color: white;
 }
+
+.media-meme {
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .meme {
+        display: none;
+    }
+
+    .media-meme{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-top: 25% ;
+        margin-bottom: 50%;
+    }
+}
